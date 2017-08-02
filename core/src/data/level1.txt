@@ -1,0 +1,157 @@
+Checkpoint 1164 128
+Checkpoint 5900 64
+Spike -100 0
+Spike -200 0
+Spike -300 0
+Spike -400 0
+Spike -500 0
+Spike -600 0
+Spike -700 0
+Spike -900 0
+Spike -900 0
+Spike -1000 0
+Spike -1100 0
+Spike -1200 0
+Spike -1300 0
+Spike -1400 0
+Spike -1500 0
+Gun 100 80
+Box 180 80
+Box 280 80
+Box 280 460
+Platform 400 50 500 0 false
+Box 380 80
+Bricks 0 0 12 1 2
+Bricks 640 64 1 2 2
+Spike 770 20
+Spike 870 20
+SpeedItem 450 80
+Bricks 768 -44 3 1 2
+Bricks 970 64 1 3 2
+Brick 1666 0 2 2
+Brick 1666 64 2 2
+Bricks 898 0 12 1 2
+Bricks 1666 0 19 1 2
+Spike 500 64
+Coin 1858 150
+Coin 1900 150
+Coin 1930 150
+Cannon 2306 58 true
+Spike 2562 64
+Spike 2662 64
+Bush 0 64
+Bush 300 64
+Bush 468 64
+Bush 900 64
+Bush 1068 64
+Bush 1068 64
+Bush 1236 64
+Bush 1404 64
+Bush 1468 64
+Bush 1596 64
+Bush 1622 64
+Bush 1648 64
+Bush 1674 64
+Bush 1700 64
+Bush 1726 64
+Bush 1752 64
+Bush 1778 64
+Bush 1804 64
+Bush 1830 64
+Bush 1856 64
+Bush 1882 64
+Bush 1908 64
+Bush 1934 64
+Bush 1960 64
+Bush 1986 64
+Bush 2012 64
+Bush 2038 64
+Bush 2064 64
+Bush 2090 64
+Bush 2116 64
+Bush 2142 64
+Bush 2168 64
+Bush 2194 64
+Bush 2220 64
+Bush 2246 64
+Bush 2272 64
+Bush 2298 64
+Bush 2324 64
+Bush 2350 64
+Bush 2376 64
+Bush 2402 64
+Bush 2428 64
+Bush 2454 64
+Bush 2480 64
+Bush 2506 64
+Bush 2532 64
+Bush 2558 64
+Bush 2582 64
+Planet 150 150 2 1
+Planet 550 100 1 2
+Planet 860 66 2 1
+Planet 1195 235 4 3
+Planet 1400 190 3 1
+Planet 1863 100 1 2
+Planet 2000 152 2 3
+Planet 2353 136 3 2
+Planet 2753 95 3 3
+Spike 1035 64
+Brick 1135 64 2
+Enemy 1400 64 5000 5000
+Spike 2882 0
+Spike 2982 0
+Spike 3082 0
+Spike 3182 0
+Spike 3282 0
+Spike 3382 0
+Spike 3482 0
+Platform 3300 15 500 500 true
+Bricks 3582 0 13 1 2
+Brick 3582 64 2
+Brick 4350 64 2
+Spike 4448 0
+Spike 4548 0
+Spike 4648 0
+Spike 4748 0
+Spike 4848 0
+Spike 4948 0
+Spike 5048 0
+Spike 5148 0
+Spike 5248 0
+Spike 5348 0
+Planet 5800 290 15 1
+Spike 5448 0
+Spike 5548 0
+Spike 5648 0
+Enemy 3868 64 1000 1000
+WeakBrick 4600 150
+WeakBrick 4900 150
+WeakBrick 5200 150
+Bricks 5600 0 8 1 2
+Spike 6112 0
+Spike 6212 0
+Spike 6312 0
+Spike 6412 0
+Spike 6512 0
+Platform 5900 64 900 0 false
+Bricks 5344 900 5 1 2
+Brick 5088 900 2
+Brick 5088 964 2
+Bricks 4000 900 17 1 2
+Brick 4000 964 2 
+Enemy 4192 1000 1000 1000
+Platform 3500 900 500 500 true
+Cannon 2350 959 false
+Bricks 2040 900 16 1 2
+Brick 3400 964 2
+Spike 2040 964
+Spike 2140 964
+Bricks 1836 900 2 1 2
+Pole 1860 964
+Gun 2178 64
+Bricks 6600 300 3 1 2
+AI 6400 130
+AI 6900 130
+//AI 7200 130
+Bricks 6300 64 50 1 2
