@@ -1,3 +1,5 @@
+Checkpoint 1164 128
+Checkpoint 5900 64
 Spike -100 0
 Spike -200 0
 Spike -300 0
@@ -13,72 +15,31 @@ Spike -1200 0
 Spike -1300 0
 Spike -1400 0
 Spike -1500 0
-Block 0 0
-Block 64 0
-Block 128 0
-Block 192 0
-SpeedItem 200 64
-Block 256 0
-Platform 150 70 500 0 false
-Block 320 0
-Block 384 0
-Block 448 0
-Block 512 0
-Block 576 0
-Block 640 0
-ResizableBrick 640 64 64 128
-//Block 640 64
-//Block 640 128
-Block 704 0
+Enemy 200 0 64 0
+Gun 100 80
+Box 180 80
+Box 280 80
+Box 280 460
+Platform 400 50 500 0 false
+Box 380 80
+Bricks 0 0 12 1 2
+Bricks 640 64 1 2 2
 Spike 770 20
 Spike 870 20
-Block 768 -44
-Block 832 -44
-Block 852 -44
-//Block 970 64
-//Block 970 128
-//Block 970 192
-ResizableBrick 970 64 64 128
-Block 898 0
-Block 962 0
-Block 1026 0
-Block 1090 0
-Block 1154 0
-Block 1154 64
-Block 1218 0
-Block 1282 0
-Block 1346 0
-Block 1410 0
-Block 1474 0
-Block 1538 0
-Block 1602 0
-Block 1666 0
-Block 1730 0
-Block 1730 64
-Block 1794 0
-//Spike 500 64
+SpeedItem 450 80
+Bricks 768 -44 3 1 2
+Bricks 970 64 1 3 2
+Brick 1666 0 2 2
+Brick 1666 64 2 2
+Bricks 898 0 12 1 2
+Bricks 1666 0 19 1 2
+Spike 500 64
 Coin 1858 150
 Coin 1900 150
 Coin 1930 150
-Block 1858 0
-Block 1922 0
-Block 1986 0
-Block 2050 0
-Block 2114 0
-Block 2178 0
-Block 2242 0
-Block 2306 0
 Cannon 2306 58 true
-Block 2370 0
-Block 2434 0
-Block 2498 0
-Block 2562 0
 Spike 2562 64
 Spike 2662 64
-Block 2626 0
-Block 2690 0
-Block 2754 0
-Block 2818 0
 Bush 0 64
 Bush 300 64
 Bush 468 64
@@ -137,6 +98,7 @@ Planet 2000 152 2 3
 Planet 2353 136 3 2
 Planet 2753 95 3 3
 Spike 1035 64
+Brick 1135 64 2
 Enemy 1400 64 5000 5000
 Spike 2882 0
 Spike 2982 0
@@ -146,21 +108,9 @@ Spike 3282 0
 Spike 3382 0
 Spike 3482 0
 Platform 3300 15 500 500 true
-Block 3582 0
-Block 3582 64
-Block 3646 0
-Block 3710 0
-Block 3774 0
-Block 3838 0
-Block 3902 0
-Block 3966 0
-Block 4030 0
-Block 4094 0
-Block 4158 0
-Block 4222 0
-Block 4286 0
-Block 4350 0
-Block 4350 64
+Bricks 3582 0 13 1 2
+Brick 3582 64 2
+Brick 4350 64 2
 Spike 4448 0
 Spike 4548 0
 Spike 4648 0
@@ -171,75 +121,38 @@ Spike 5048 0
 Spike 5148 0
 Spike 5248 0
 Spike 5348 0
+Planet 5800 290 15 1
 Spike 5448 0
 Spike 5548 0
 Spike 5648 0
 Enemy 3868 64 1000 1000
-WeekBrick 4600 150
-WeekBrick 4900 150
-WeekBrick 5200 150
-Block 5600 0
-Block 5664 0
-Block 5728 0
-Block 5792 0
-Block 5856 0
-Block 5920 0
-Block 5984 0
-Block 6048 0
+WeakBrick 4600 150
+WeakBrick 4900 150
+WeakBrick 5200 150
+Bricks 5600 0 8 1 2
 Spike 6112 0
 Spike 6212 0
 Spike 6312 0
 Spike 6412 0
 Spike 6512 0
 Platform 5900 64 900 0 false
-Block 5600 900
-Block 5536 900
-Block 5472 900
-Block 5408 900
-Block 5344 900
-Block 5088 900
-Block 5024 900
-Block 4960 900
-Block 4896 900
-Block 4832 900
-Block 4768 900
-Block 4768 964
-Block 4704 900
-Block 4640 900
-Block 4576 900
-Block 4512 900
-Block 4448 900
-Block 4384 900
-Block 4320 900
-Block 4256 900
-Block 4192 900
+Bricks 5344 900 5 1 2
+Brick 5088 900 2
+Brick 5088 964 2
+Bricks 4000 900 17 1 2
+Brick 4000 964 2 
 Enemy 4192 1000 1000 1000
-Block 4128 900
-Block 4064 900
-Block 4000 900
-Block 4000 964
 Platform 3500 900 500 500 true
 Cannon 2350 959 false
-Block 3400 964
-Block 3000 900
-Block 2936 900
-Block 2872 900
-Block 2808 900
-Block 2744 900
-Block 2680 900
-Block 2616 900
-Block 2552 900
-Block 2488 900
-Block 2424 900
-Block 2360 900
-Block 2296 900
-Block 2232 900
-Block 2168 900
-Block 2104 900
-Block 2040 900
+Bricks 2040 900 16 1 2
+Brick 3400 964 2
 Spike 2040 964
 Spike 2140 964
-Block 1900 900
-Block 1836 900
+Bricks 1836 900 2 1 2
 Pole 1860 964
 Gun 2178 64
+Bricks 6600 300 3 1 2
+AI 6400 130
+AI 6900 130
+//AI 7200 130
+Bricks 6300 64 50 1 2

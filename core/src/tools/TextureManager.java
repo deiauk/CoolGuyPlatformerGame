@@ -3,6 +3,7 @@ package tools;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
+import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.Texture.TextureWrap;
 
@@ -38,27 +39,27 @@ public class TextureManager {
     	int h = Integer.parseInt(hour.format(cal.getTime()));
     	int min = Integer.parseInt(minute.format(cal.getTime()));
 
-		brick = new Texture("data/brick1.png");
-		coin = new Texture("data/coin.png");
-		pole = new Texture("data/pole.png");
-		spikes = new Texture("data/spikes.png");
-		bush = new Texture("data/bushes.png");
-		planet = new Texture("data/planet.png");
-		planet2 = new Texture("data/planet2.png");
-		planet3 = new Texture("data/planet3.png");
-		back = new Texture("data/background.png");
-		enemy = new Texture("data/enemy.png");
-		cannon = new Texture("data/cannon.png");
-		bullet = new Texture("data/bullet.png");
-		platform = new Texture("data/platform.png");
-		weekBrick = new Texture("data/weekBrick.png");
-		gunItem = new Texture("data/gunItem.png");
-		playerBullet = new Texture("data/playerBullet.png");
-		speed = new Texture("data/speed.png");
-		checkpoint = new Texture("data/cp.png");
-		box = new Texture("data/Box.png");
-		medKit = new Texture("data/medKit.png");
-		AI = new Texture("data/AI.png");
+		brick = new Texture(Gdx.files.internal("brick1.png"));
+		coin = new Texture("coin.png");
+		pole = new Texture("pole.png");
+		spikes = new Texture("spikes.png");
+		bush = new Texture("bushes.png");
+		planet = new Texture("planet.png");
+		planet2 = new Texture("planet2.png");
+		planet3 = new Texture("planet3.png");
+		back = new Texture("background.png");
+		enemy = new Texture("enemy.png");
+		cannon = new Texture("cannon.png");
+		bullet = new Texture("bullet.png");
+		platform = new Texture("platform.png");
+		weekBrick = new Texture("weekBrick.png");
+		gunItem = new Texture("gunItem.png");
+		playerBullet = new Texture("playerBullet.png");
+		speed = new Texture("speed.png");
+		checkpoint = new Texture("cp.png");
+		box = new Texture("Box.png");
+		medKit = new Texture("medKit.png");
+		AI = new Texture("AI.png");
 	}
 	public static void dispose(){
 		brick.dispose();

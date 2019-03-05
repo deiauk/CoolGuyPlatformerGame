@@ -63,7 +63,7 @@ public class MyGame extends ApplicationAdapter {
 	private Sprite options, exit, home, back, sound, soundMute;
 	private Rectangle optionsRectangle, exitRectangle, nextLevelRectangle, homeRectangle;
 	private int level;
-	private BitmapFont font; 
+	private BitmapFont font;
 	private int dead = 0;
 	private int jump = 0;
 	private int coins = 0;
@@ -114,7 +114,7 @@ public class MyGame extends ApplicationAdapter {
 		generateCoins();
 		
 		player1 = new CoolGuy();
-		player1.setPosition(6800, 300);
+		player1.setPosition(0, 300);
 		player1.setHealthPoints(100);
 		
 		trap = new Rectangle(player1.getFull().x - 2 * player1.getFull().width,
@@ -138,54 +138,54 @@ public class MyGame extends ApplicationAdapter {
 		deleteItem = new ArrayList<ItemObject>();
 		
 		//android control
-		texture = new Texture("data/left.png");
+		texture = new Texture("left.png");
 		spriteLeftButton = new Sprite(texture);
-		texture = new Texture("data/right.png");
+		texture = new Texture("right.png");
 		spriteRightButton = new Sprite(texture);
-		texture = new Texture("data/top.png");
+		texture = new Texture("top.png");
 		spriteJumpButton = new Sprite(texture);
-		texture = new Texture("data/fireButton.png");
+		texture = new Texture("fireButton.png");
 		spriteFireButton = new Sprite(texture);
-		texture = new Texture("data/fireButtonDisabled.png");
+		texture = new Texture("fireButtonDisabled.png");
 		spriteFireButtonDisabled = new Sprite(texture);
 		
 		//menu
-		texture = new Texture("data/menuBackground.jpg");
+		texture = new Texture("menuBackground.jpg");
 		menuBack = new Sprite(texture);
-		texture = new Texture("data/start.png");
+		texture = new Texture("start.png");
 		menuStart = new Sprite(texture);
 		menuStart.setSize(300, 100);
-		texture = new Texture("data/options.png");
+		texture = new Texture("options.png");
 		options = new Sprite(texture);
 		options.setSize(300, 100);
 		optionsRectangle = new Rectangle(0, 0, 300, 100);
-		texture = new Texture("data/exit.png");
+		texture = new Texture("exit.png");
 		exit = new Sprite(texture);
 		exit.setSize(300, 100);
 		exitRectangle = new Rectangle(0, 0, 300, 100);
-		texture = new Texture("data/nextLevel.png");
+		texture = new Texture("nextLevel.png");
 		menuNext = new Sprite(texture);
 		nextLevelRectangle = new Rectangle(0,0,300,100);
 		menuNext.setSize(300, 100);
 		startRectangle = new Rectangle(0, 0, 300, 100);
-		texture = new Texture("data/gameOver.png");
+		texture = new Texture("gameOver.png");
 		menuGameOver = new Sprite(texture);
 		menuGameOver.setSize(300, 100);
-		texture = new Texture("data/home.png");
+		texture = new Texture("home.png");
 		home = new Sprite(texture);
 		home.setSize(30, 30);
 		home.setPosition(0, 150);
 		homeRectangle = new Rectangle(0,150,30,30);
-		texture = new Texture("data/Back.png");
+		texture = new Texture("Back.png");
 		back = new Sprite(texture);
 		back.setSize(300, 100);
 		backButton = new Rectangle(0,0,300,100);
-		texture = new Texture("data/audio.png");
+		texture = new Texture("audio.png");
 		sound = new Sprite(texture);
 		sound.setSize(250, 250);
 		sound.setPosition(700, 300);
 		soundButton = new Rectangle(700, 300, 250, 250);
-		texture = new Texture("data/audio_no.png");
+		texture = new Texture("audio_no.png");
 		soundMute = new Sprite(texture);
 		soundMute.setSize(250, 250);
 		soundMute.setPosition(700, 300);
@@ -225,7 +225,7 @@ public class MyGame extends ApplicationAdapter {
 			break;
 		}
 		
-		font = new BitmapFont(Gdx.files.internal("font/font.fnt"), Gdx.files.internal("font/font.png"), false);
+		font = new BitmapFont(Gdx.files.internal("font.fnt"), Gdx.files.internal("font.png"), false);
 		font.setScale(1);
 		
 		level = 1;
@@ -424,7 +424,7 @@ public class MyGame extends ApplicationAdapter {
 		enemies.clear();
 		items.clear();
 		
-		FileHandle file = Gdx.files.internal("data/" + level + ".txt");
+		FileHandle file = Gdx.files.internal("" + level + ".txt");
 		StringTokenizer tokens = new StringTokenizer(file.readString());
 		while(tokens.hasMoreTokens()){
 			String type = tokens.nextToken();
@@ -541,7 +541,7 @@ public class MyGame extends ApplicationAdapter {
 		font.draw(batch, "HP: " + player1.getHealthPoints(), -380, 120); 
 		if(PlayerBullet.shoot){
 			font.draw(batch, "Ammo: " + PlayerBullet.bulletsQuantity, 180, 180);
-			font.draw(batch, "Charger: " + PlayerBullet.gunCharger, 180, 150);
+			font.draw(batch, "Clamp: " + PlayerBullet.gunCharger, 180, 150);
 		}
 		batch.end();
 		
